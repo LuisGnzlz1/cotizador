@@ -1,0 +1,127 @@
+
+.aside-left-mobile{
+  display: inline;
+  height: 308px;
+  padding-top: 80px;
+  background-color: #ECF0FF;
+}
+
+.aside-left-mobile__img{
+  position: relative;
+  float: right;
+}
+
+.aside-left-mobile__cajon-texto{
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+
+.aside-left-mobile__text1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #494F66;
+}
+
+.aside-left-mobile__text2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  color: #494F66;
+  padding: 7px 0px 0px 0px;
+}
+
+.aside-left-mobile__text3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  color: #EF3340;
+}
+
+.aside-left-mobile__text4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #676F8F;
+  padding-top: 7px;
+}
+
+.aside-left-desktop{
+  display: none;
+  height: 100vh;
+  padding-top: 80px;
+  background-color: #ECF0FF;
+}
+
+.aside-left-desktop__cajon-texto{
+  margin-top: 5rem;
+  margin-left: 1.5rem;
+}
+
+.aside-left-desktop__text1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #494F66;
+}
+
+.aside-left-desktop__text2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  color: #494F66;
+  padding: 14px 0px 14px 0px;
+}
+
+.aside-left-desktop__text3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  color: #EF3340;
+}
+
+.aside-left-desktop__text4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #676F8F;
+  padding-top: 14px;
+}
+
+.aside-left-desktop__footer{
+  text-align: center;
+  position: fixed;
+  height: 55px;
+  bottom: 0;
+  width: 40%;
+  color: #A3ABCC;
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(md) {
+
+  .aside-left-desktop{
+    display: inline;
+  }
+
+  .aside-left-mobile{
+    display: none;
+  }
+
+}
