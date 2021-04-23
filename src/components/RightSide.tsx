@@ -10,13 +10,6 @@ export function RightSide() {
     const [placa, setPlaca] = useState('');
     const [check, setCheck] = useState(true);
 
-    const forceInputUppercase = (e:any):void => {
-        let start = e.target.selectionStart;
-        let end = e.target.selectionEnd;
-        e.target.value = e.target.value.toUpperCase();
-        e.target.setSelectionRange(start, end);
-    }
-
     const handleChange = (e:any, campo:string):void => {
 
         if(campo === 'tipodocumento'){

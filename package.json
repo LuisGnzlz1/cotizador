@@ -53,5 +53,6 @@
   "devDependencies": {
     "@types/react-input-mask": "^3.0.0",
     "autoprefixer": "^9.8.6"
-  }
+  },
+  "homepage": "https://luisgnzlz1.github.io/cotizador/"
 }

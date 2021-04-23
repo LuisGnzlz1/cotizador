@@ -1,5 +1,5 @@
-import imgChicaMobile from "../assets/mask-group.png";
-import imgChica from "../assets/chica.svg";
+import chicaMobile from "../assets/mask-group.png";
+import chicaI from "../assets/chica.svg";
 
 export function LeftSide() {
 
@@ -24,7 +24,7 @@ export function LeftSide() {
                 </div>
 
                 <div className="col-4 p-0">
-                    <img src={imgChicaMobile} className="aside-left-mobile__img" alt="seguro de vehiculos"/>
+                    <img src={chicaMobile} className="aside-left-mobile__img" alt="seguro de vehiculos"/>
                 </div>
 
             </div>
@@ -36,7 +36,7 @@ export function LeftSide() {
 
             <div className="row">
                 <div className="col-12 text-center mt-5">
-                    <img src={imgChica} className="aside-left-desktop__img" alt="seguro para tu vehiculo"/>
+                    <img src={chicaI} className="aside-left-desktop__img" alt="seguro para tu vehiculo"/>
                 </div>
 
                 <div className="col-12 d-flex justify-content-center">
